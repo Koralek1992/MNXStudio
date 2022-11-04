@@ -70,6 +70,16 @@ font-size: 1.8rem;
     font-size: 4rem;
 }
 
+.accordion-button {
+    padding: 1em;
+    font-size: 1.8rem;
+}
+
+.accordion-active-color {
+    color: rgba(255, 102, 0);
+}
+
+
 @media (min-width: 992px) {
     .home {
         background-image: url('../img/hero-bg.jpg');
