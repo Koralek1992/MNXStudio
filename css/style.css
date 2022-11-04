@@ -93,6 +93,16 @@ font-size: 1.8rem;
     object-fit: cover;
 }
 
+.contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact .submit-btn {
+    font-size: 1.6rem;
+}
+
 
 
 @media (min-width: 992px) {
