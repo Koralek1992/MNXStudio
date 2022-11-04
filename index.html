@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
 
-    <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top ">
+    <nav class="navbar navbar-expand-lg bg-light py-4 fixed-top" id="navbar-example">
         <div class="container">
             <a class="navbar-brand" href="#"><i class="bi bi-camera2 orange-color"></i> MNX Studio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -93,42 +93,54 @@
                 <p class="display-3 py-5 text-uppercase orange-color text-center mb-4">Czym się wyróżniamy?</p>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Najlepsza jakość produktów
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. A modi quo, dolorem dolore quidem atque est tempore sit harum recusandae soluta excepturi earum quia, ad tenetur quasi eos commodi nulla.
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Najlepsza jakość produktów
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A modi quo, dolorem dolore
+                                quidem atque est tempore sit harum recusandae soluta excepturi earum quia, ad tenetur
+                                quasi eos commodi nulla.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Świetne relacje z klientami
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores necessitatibus dicta, repellat sint exercitationem, aliquam voluptate corporis ducimus aut molestias ipsa sed laudantium hic! Minus harum qui beatae fuga!
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Świetne relacje z klientami
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores necessitatibus
+                                dicta, repellat sint exercitationem, aliquam voluptate corporis ducimus aut molestias
+                                ipsa sed laudantium hic! Minus harum qui beatae fuga!
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                         Zdobywcy wielu nagród
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas ipsum minima temporibus laboriosam, dicta dolor sint recusandae nulla ducimus facilis nesciunt commodi fugit impedit deserunt distinctio a, obcaecati delectus?
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Zdobywcy wielu nagród
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas ipsum minima
+                                temporibus laboriosam, dicta dolor sint recusandae nulla ducimus facilis nesciunt
+                                commodi fugit impedit deserunt distinctio a, obcaecati delectus?
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
 
             </div>
         </section>
@@ -136,46 +148,51 @@
         <section id="team" class="team py-5">
             <div class="container py-5 text-center">
                 <p class="display-3 orange-color mb-0 text-uppercase">Zespół</p>
-                <p class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum vero atque recusandae molestiae quis corporis rem dolore quam quia. Vitae impedit aspernatur earum voluptates voluptatem eum qui officiis deleniti sint.</p>
+                <p class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum vero atque recusandae
+                    molestiae quis corporis rem dolore quam quia. Vitae impedit aspernatur earum voluptates voluptatem
+                    eum qui officiis deleniti sint.</p>
 
                 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
                     <div class="col">
-                      <div class="card h-100">
-                        <img src="./img/hunger-413685_1280.jpeg" class="card-img-top" alt="Prezes">
-                        <div class="card-body">
-                          <h5 class="card-title">Prezes</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="card h-100">
+                            <img src="./img/hunger-413685_1280.jpeg" class="card-img-top" alt="Prezes">
+                            <div class="card-body">
+                                <h5 class="card-title">Prezes</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100">
-                        <img src="./img/woman-1274361_1280.jpeg" class="card-img-top" alt="HR">
-                        <div class="card-body">
-                          <h5 class="card-title">HR</h5>
-                          <p class="card-text">This is a short card.</p>
+                        <div class="card h-100">
+                            <img src="./img/woman-1274361_1280.jpeg" class="card-img-top" alt="HR">
+                            <div class="card-body">
+                                <h5 class="card-title">HR</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100">
-                        <img src="./img/fashion-3080644_1280.jpeg" class="card-img-top" alt="Marketing">
-                        <div class="card-body">
-                          <h5 class="card-title">Marketing</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card h-100">
+                            <img src="./img/fashion-3080644_1280.jpeg" class="card-img-top" alt="Marketing">
+                            <div class="card-body">
+                                <h5 class="card-title">Marketing</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="col">
-                      <div class="card h-100">
-                        <img src="./img/man-1867175_1280.jpeg" class="card-img-top" alt="Grafik">
-                        <div class="card-body">
-                          <h5 class="card-title">Grafik</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="card h-100">
+                            <img src="./img/man-1867175_1280.jpeg" class="card-img-top" alt="Grafik">
+                            <div class="card-body">
+                                <h5 class="card-title">Grafik</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
 
             </div>
         </section>
@@ -213,8 +230,21 @@
 
             </div>
         </section>
-
     </main>
+
+    <footer class="bg-dark text-light border-top">
+        <p class="py-5 mb-0 text-center">&copy; MNX Studio</p>
+    </footer>
+
+    <script>
+        const nav = document.querySelector('.navbar-collapse')
+
+        document.addEventListener('click', () => {
+            if (nav.classList.contains('show')) {
+                nav.classList.remove('show')
+            }
+        })
+    </script>
 
 
 
